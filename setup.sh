@@ -4,9 +4,10 @@ echo "Installation of ActivityWatch"
 echo "Checking dependencies"
 python3 -V
 curl -sSL https://install.python-poetry.org |python3 - #download poetry
+export PATH="$HOME/.local/bin:$PATH"
 poetry -V
 sudo apt install nodejs
-node -V 
+node -v
 sudo apt install npm
-npm -V
+npm -v
 sudo apt-get install python3-venv
