@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo "Installation of ActivityWatch"
-git clone --recursive https://github.com/ActivityWatch/activitywatch.git
+#git clone --recursive https://github.com/ActivityWatch/activitywatch.git
 echo "Checking dependencies"
 python3 -V
 if ! type python3 -V >/dev/null 2>&1; then
