@@ -4,6 +4,7 @@ echo "Installation of ActivityWatch"
 echo "Checking dependencies"
 python3 -V
 export PATH="$HOME/.local/bin:$PATH"
+echo "EXPORT PATH"
 curl -sSL https://install.python-poetry.org |python3 - #download poetry
 poetry -V
 #sudo apt install nodejs
