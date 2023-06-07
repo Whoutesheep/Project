@@ -2,9 +2,11 @@
 echo "Installation of ActivityWatch"
 #git clone --recursive https://github.com/ActivityWatch/activitywatch.git
 echo "Checking dependencies"
-if type python3 -V >/dev/null 2>&1; then
-    echo "Python3 not installed" 1>&2
-else 
-    echo "- Python3 installed:"
-    python3 -V
-fi
+python3 -V
+curl -sSL https://install.python-poetry.org |python3 - #download poetry
+poetry -V
+sudo apt install nodejs
+node -V 
+sudo apt install npm
+npm -V
+sudo apt-get install python3-venv
