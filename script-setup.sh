@@ -4,4 +4,6 @@ git clone --recursive https://github.com/ActivityWatch/activitywatch.git
 echo -e "Checking dependencies\- python3 :"
 if ! type python3 -V >/dev/null 2>&1; then
     echo "Python3 not installed" 1>&2
+else 
+    python3 -V
 fi
