@@ -6,8 +6,8 @@ python3 -V
 export PATH="$HOME/.local/bin:$PATH"
 curl -sSL https://install.python-poetry.org |python3 - #download poetry
 poetry -V
-sudo apt install nodejs
-node -v
-sudo apt install npm
-npm -v
-sudo apt-get install python3-venv
+#sudo apt install nodejs
+#node -v
+#sudo apt install npm
+#npm -v
+#sudo apt-get install python3-venv
