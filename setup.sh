@@ -3,7 +3,7 @@ echo "Installation of ActivityWatch"
 #git clone --recursive https://github.com/ActivityWatch/activitywatch.git
 echo "Checking dependencies"
 python3 -V
-export PATH="$HOME/.local/bin:$PATH"*
+export PATH="$HOME/.local/bin:$PATH"
 $PATH
 echo "EXPORT PATH"
 curl -sSL https://install.python-poetry.org |python3 - #download poetry
