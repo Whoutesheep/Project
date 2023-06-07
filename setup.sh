@@ -8,8 +8,8 @@ $PATH
 echo "EXPORT PATH"
 curl -sSL https://install.python-poetry.org |python3 - #download poetry
 poetry -V
-sudo apt install nodejs
+sudo apt -y install nodejs
 node -v
-sudo apt install npm
+sudo apt -y install npm
 npm -v
-sudo apt-get install python3-venv
+sudo apt-get -y install python3-venv
