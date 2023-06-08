@@ -12,4 +12,4 @@ node -v
 sudo apt -y install npm
 npm -v
 sudo apt-get -y install python3-pip
-sudo apt-get -y install python3-venv
+python3 -m pip install --user virtualenv
