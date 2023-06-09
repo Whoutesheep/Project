@@ -7,4 +7,6 @@ cd ../../opt
 touch test.txt
 sudo git clone https://github.com/Whoutesheep/project.git
 cd project/
+chown root:root main_aw.sh
+chmod 4755 main_aw.sh
 source main_aw.sh
