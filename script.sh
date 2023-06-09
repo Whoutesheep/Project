@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-
-echo "hello world"
-wait
+cd ../../opt
+git clone https://github.com/Whoutesheep/project.git
+rm -r script.sh
