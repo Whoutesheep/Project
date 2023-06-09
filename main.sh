@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 echo -e "------------------------------------\------------------Installing dependencies------------------\------------------------------------"
 export PATH="$HOME/.local/bin:$PATH"
-curl -sSL https://install.python-poetry.org |python3 - #download poetry
+curl -sSL https://install.python-poetry.org |python3 - 
 sudo apt -y install nodejs
 sudo apt -y install npm
 sudo apt-get -y install python3-pip
