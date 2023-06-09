@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-echo "Installation of ActivityWatch"
+echo -e "------------------\Installation of ActivityWatch\------------------"
 git clone --recursive https://github.com/ActivityWatch/activitywatch.git
-echo "Checking dependencies"
+echo "------------------\Installing dependencies\------------------"
 export PATH="$HOME/.local/bin:$PATH"
 curl -sSL https://install.python-poetry.org |python3 - #download poetry
 sudo apt -y install nodejs
