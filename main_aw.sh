@@ -10,7 +10,7 @@ sudo apt -y install npm
 sudo apt-get -y install python3-pip
 python3 -m pip install virtualenv
 echo "------------------------------------\------------------Venv install------------------/------------------------------------"
-sudo python3 -m pip install virtualenv #--user le dl dans root --> je ne peut pas y acceder avec mes doits
+sudo python3 -m pip install --user virtualenv #--user le dl dans root --> je ne peut pas y acceder avec mes doits
 sudo apt-get -y install python3-venv
 echo "------------------------------------\------------------Venv launch------------------/------------------------------------"
 sudo python3 -m venv venv_aw
