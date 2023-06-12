@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+echo "------------------------------------\------------------Installation of ActivityWatch------------------/------------------------------------"
+sudo git clone --recursive https://github.com/ActivityWatch/activitywatch.git
 echo "------------------------------------\------------------Installing dependencies------------------/------------------------------------"
 export PATH="$HOME/.local/bin:$PATH" #temporaire, setup_aw doit fonctionner pour etre remove
 curl -sSL https://install.python-poetry.org |python3 - 
@@ -10,7 +12,7 @@ echo "------------------------------------\------------------Venv install-------
 sudo python3 -m pip install --user virtualenv
 sudo apt-get -y install python3-venv
 echo "------------------------------------\------------------Venv launch------------------/------------------------------------"
+export PATH="root/.local/bin:$PATH" #temporaire, setup_aw doit fonctionner pour etre remove
 sudo python3 -m venv venv_aw
 source ./venv_aw/bin/activate
-echo "------------------------------------\------------------Installation of ActivityWatch------------------/------------------------------------"
-sudo git clone --recursive https://github.com/ActivityWatch/activitywatch.git
+
