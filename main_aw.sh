@@ -7,10 +7,10 @@ echo "------------------------------------\------------------Installing dependen
 sudo apt -y install nodejs
 sudo apt -y install npm
 sudo apt-get -y install python3-pip
-python3 -m pip install --user --upgrade pip
-python3 -m pip install --user poetry
+sudo python3 -m pip install --user --upgrade pip
+sudo python3 -m pip install --user poetry
 echo "------------------------------------\------------------Venv install------------------/------------------------------------"
-python3 -m pip install --user virtualenv
+sudo python3 -m pip install --user virtualenv
 sudo apt-get -y install python3-venv
 echo "------------------------------------\------------------Venv launch------------------/------------------------------------"
 sudo python3 -m venv venv_aw
