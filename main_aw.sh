@@ -6,8 +6,10 @@ echo "------------------------------------\------------------Installing dependen
 #sudo curl -sSL https://install.python-poetry.org |python3 - 
 sudo apt -y install nodejs
 sudo apt -y install npm
+echo "------------------------------------\------------------Installing pip------------------/------------------------------------"
 sudo apt-get -y install python3-pip
 sudo python3 -m pip install --user --upgrade pip
+echo "------------------------------------\------------------Installing poetry------------------/------------------------------------"
 sudo python3 -m pip install --user poetry
 echo "------------------------------------\------------------Venv install------------------/------------------------------------"
 sudo python3 -m pip install --user virtualenv
