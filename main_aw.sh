@@ -15,3 +15,5 @@ sudo apt-get -y install python3-venv
 echo "------------------------------------\------------------Venv launch------------------/------------------------------------"
 sudo python3 -m venv venv_aw
 source ./venv_aw/bin/activate
+cd activitywatch
+sudo make build
