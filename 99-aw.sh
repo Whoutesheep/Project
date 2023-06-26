@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 #installation : etc/profile.d
-#requirements : screen / aw d'installer
+#Vérifier si aw est présent sur la machine
 cd ../../opt/activitywatch/aw-watcher-afk
 ./aw-watcher-afk&
