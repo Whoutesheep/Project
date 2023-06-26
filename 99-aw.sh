@@ -3,8 +3,3 @@
 #requirements : screen / aw d'installer
 cd ../../opt/activitywatch/aw-watcher-afk
 ./aw-watcher-afk&
-exit
-#cd ../aw-watcher-window
-#screen -S aw-watcher-window
-#./aw-watcher-window
-#exit
