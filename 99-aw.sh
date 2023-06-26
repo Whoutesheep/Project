@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-#requirements : screen
+#installation : etc/profile.d
+#requirements : screen / aw d'installer
 cd ../../opt/activitywatch/aw-watcher-afk
 screen -S aw-watcher-afk
 ./aw-watcher-afk
