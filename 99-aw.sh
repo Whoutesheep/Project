@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #installation : etc/profile.d
-if [ -d "/path/to/dir" ] 
+if [ -d "/opt/activitywatch" ] 
 then
   echo "ActivityWatch installed : starting watchers"
   cd ../../opt/activitywatch/aw-watcher-afk
