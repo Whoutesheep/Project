@@ -1,5 +1,5 @@
 #!/bin/bash
-#installation : etc/profile.d
+#installation : etc/profile.d sur le client
 if [ -d "/opt/activitywatch" ] 
 then
   echo "ActivityWatch installed : starting watchers"
