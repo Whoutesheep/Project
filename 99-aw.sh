@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 #installation : etc/profile.d
 if [ -d "/opt/activitywatch" ] 
 then
