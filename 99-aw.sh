@@ -7,6 +7,8 @@ then
   ./aw-watcher-afk&
   cd ../aw-watcher-window
   ./aw-watcher-window&
+  cd ../aw-watcher-input
+  ./aw-watcher-input&
 else
   echo "Error : ActivityWatch not installed"
 fi
