@@ -12,7 +12,8 @@ sudo python3 -m venv venv_aw
 source ./venv_aw/bin/activate
 echo "------------------------------------\------------------Installing dependencies------------------/------------------------------------"
 sudo curl -sSL https://install.python-poetry.org |python3 - 
-sudo apt -y install nodejs
+#sudo apt -y install nodejs
+sudo curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt -y install npm
 sudo apt -y install python3
 echo "------------------------------------\------------------ActivityWatch building------------------/------------------------------------"
