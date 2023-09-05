@@ -19,5 +19,5 @@ sudo apt -y install python3
 echo "------------------------------------\------------------ActivityWatch building------------------/------------------------------------"
 make clean
 make clean_all
-#make build
+make build
 #make package
