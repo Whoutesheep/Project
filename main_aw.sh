@@ -25,10 +25,13 @@ NODE_MAJOR=18
 echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
 sudo apt-get update
 sudo apt-get install nodejs -y
-echo "------------------------------------\------------------Installing npm & python3------------------/------------------------------------"
+echo "------------------------------------\------------------Installing npm/python3/Rust------------------/------------------------------------"
 sudo apt -y install npm
 npm install -g npm@10.0.0
 sudo apt -y install python3
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+rustup default nightly
+rustup update
 echo "------------------------------------\------------------ActivityWatch building------------------/------------------------------------"
 make build
 make package
