@@ -30,4 +30,4 @@ sudo apt -y install npm
 sudo apt -y install python3
 echo "------------------------------------\------------------ActivityWatch building------------------/------------------------------------"
 make build
-#make package
+make package
