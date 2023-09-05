@@ -12,6 +12,7 @@ sudo python3 -m pip install --user virtualenv
 sudo apt-get -y install python3-venv
 echo "------------------------------------\------------------Venv launch------------------/------------------------------------"
 sudo python3 -m venv venv_aw
+sudo chmod -R 777 venv_aw
 source ./venv_aw/bin/activate
 echo "------------------------------------\------------------Installing dependencies------------------/------------------------------------"
 sudo curl -sSL https://install.python-poetry.org |python3 - 
