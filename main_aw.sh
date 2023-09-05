@@ -18,6 +18,9 @@ echo "------------------------------------\------------------Installing dependen
 sudo curl -sSL https://install.python-poetry.org |python3 - 
 sudo apt -y install nodejs
 sudo apt -y install npm
+sudo apt -y install python3
+#sudo apt -y install python
+sudo apt -y install python-is-python3
 
 echo "------------------------------------\------------------Installing poetry------------------/------------------------------------"
 #sudo python3 -m pip install --user poetry
