@@ -28,7 +28,5 @@ echo "------------------------------------\------------------Installing npm & py
 sudo apt -y install npm
 sudo apt -y install python3
 echo "------------------------------------\------------------ActivityWatch building------------------/------------------------------------"
-make clean
-make clean_all
 make build
 #make package
