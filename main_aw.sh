@@ -27,6 +27,7 @@ sudo apt-get update
 sudo apt-get install nodejs -y
 echo "------------------------------------\------------------Installing npm & python3------------------/------------------------------------"
 sudo apt -y install npm
+npm install -g npm@10.0.0
 sudo apt -y install python3
 echo "------------------------------------\------------------ActivityWatch building------------------/------------------------------------"
 make build
