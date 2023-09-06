@@ -31,6 +31,7 @@ sudo npm install -g npm@10.0.0
 sudo apt -y install zip
 echo "------------------------------------\------------------Installing python3------------------/------------------------------------"
 sudo apt -y install python3
+sudo pip3 install aw_server
 #sudo apt -y install python 
 #sudo apt -y install python-is-python3
 echo "------------------------------------\------------------Installing Rust------------------/------------------------------------"
