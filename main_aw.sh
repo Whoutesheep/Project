@@ -28,10 +28,15 @@ sudo apt-get install nodejs -y
 echo "------------------------------------\------------------Installing npm/python3/Rust------------------/------------------------------------"
 sudo apt -y install npm
 sudo npm install -g npm@10.0.0
+echo "------------------------------------\------------------Installing python3------------------/------------------------------------"
 sudo apt -y install python3
-#sudo curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-#rustup default nightly
-#rustup update
+#sudo apt -y install python 
+#sudo apt -y install python-is-python3
+echo "------------------------------------\------------------Installing Rust------------------/------------------------------------"
+sudo curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+export PATH="$HOME/.cargo/bin:$PATH"
+rustup default nightly
+rustup update
 echo "------------------------------------\------------------ActivityWatch building------------------/------------------------------------"
 make build
 make package
