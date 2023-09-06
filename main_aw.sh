@@ -37,8 +37,8 @@ sudo pip3 install aw_server
 echo "------------------------------------\------------------Installing Rust------------------/------------------------------------"
 sudo curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 export PATH="$HOME/.cargo/bin:$PATH"
-sudo rustup default nightly
-sudo rustup update
+rustup default nightly
+rustup update
 echo "------------------------------------\------------------ActivityWatch building------------------/------------------------------------"
 make build
 make package
