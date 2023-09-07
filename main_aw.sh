@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-export PATH="$HOME/.local/bin:$PATH" #temporaire, setup_aw doit fonctionner pour etre remove
+export PATH="$HOME/.local/bin:$PATH"
 cd ../activitywatch_klaim
 echo "------------------------------------\------------------Update / Upgrade------------------/------------------------------------"
 sudo apt-get update
@@ -25,7 +25,7 @@ NODE_MAJOR=18
 echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
 sudo apt-get update
 sudo apt-get install nodejs -y
-echo "------------------------------------\------------------Installing npm/python3/Rust------------------/------------------------------------"
+echo "------------------------------------\------------------Installing npm/zip------------------/------------------------------------"
 sudo apt -y install npm
 sudo npm install -g npm@10.0.0
 sudo apt -y install zip
@@ -35,9 +35,10 @@ sudo pip3 install aw_server
 #sudo apt -y install python 
 #sudo apt -y install python-is-python3
 echo "------------------------------------\------------------Installing Rust------------------/------------------------------------"
-sudo curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-export PATH="$HOME/.cargo/bin:$PATH"
-rustup toolchain nightly-2023-06-27
+#Not currently functionnal
+#sudo curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+#export PATH="$HOME/.cargo/bin:$PATH"
+#rustup toolchain nightly-2023-06-27
 #rustup default nightly
 #rustup update
 echo "------------------------------------\------------------ActivityWatch building------------------/------------------------------------"
