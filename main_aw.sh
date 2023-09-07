@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 export PATH="$HOME/.local/bin:$PATH"
-cd ../aw_klaim
+cd ../aw-klaim
 echo "------------------------------------\------------------Update / Upgrade------------------/------------------------------------"
 sudo apt-get update
 sudo apt-get -y upgrade
